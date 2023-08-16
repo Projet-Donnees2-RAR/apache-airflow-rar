@@ -48,7 +48,7 @@ def extract(**kwargs):
     for entry in countries_population:
         countries_population_data.append({
             "country_id": entry["country"]["id"],
-            "total population": entry["value"]
+            "total_population": entry["value"]
         })
         
     countries_population_df = pd.DataFrame(countries_population_data)
