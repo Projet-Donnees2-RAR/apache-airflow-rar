@@ -7,7 +7,7 @@ from tasks.load import create_load_task
 default_args = {
     'owner': 'reichmann',
     'depends_on_past': False,
-    'start_date': datetime(2023, 8, 17),
+    'start_date': datetime(2023, 8, 16),
     'retries': 0
 }
 
